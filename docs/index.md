@@ -19,9 +19,13 @@ Pour construire notre système, on a suivit les étapes suivantes:
  - appliquer les fonctions de mouvement en fonction de la formule pour la trajectoire des planètes 
 
 ### Description synthétique du projet
-###### Problématique : 
-###### Hypothèse principale :
-###### Hypothèse secondaire :
+
+###### Problématique : De quelle manière des facteurs tels que la taille d’un système complet, la masse et le diamètre de l’étoile centrale et le nombre de planètes influent sur les différentes trajectoires des corps célestes ?
+
+###### Hypothèse principale : Ces facteurs influent directement sur la mise en orbite et donc la trajectoire des planètes.
+
+###### Hypothèse secondaire : Ces facteurs influent sur la période de révolution des planètes.
+
 ###### Objectifs :
 ###### Critère(s) d'évaluation :
  
