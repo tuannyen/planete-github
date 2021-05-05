@@ -1,4 +1,5 @@
-## Planete
+## Etude d'un système planétaire
+**Lehanneur Iona - Blasco Anaïs - Daumont Jean-Baptiste ARE DYNAMIC - 2021**
 
 You can use the [editor on GitHub](https://github.com/tuannyen/planete-github/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
