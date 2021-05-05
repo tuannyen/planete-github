@@ -45,6 +45,7 @@ Ces facteurs influent directement sur la mise en orbite et donc la trajectoire d
 Modèliser la trajectoire des planètes, déterminer si la planètes peut être mise en orbite.
 
 ###### Critère(s) d'évaluation :
+Sous quelles conditions les planètes entre en orbites en fonction de la taille et de la masse de l'étoile centrale
 
 ### Présentation des résultats
 Nous avons décidé de modéliser le système grâce à une matrice, voici un exemple ci-dessous.
