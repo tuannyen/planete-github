@@ -20,7 +20,7 @@ Pour construire notre système, on a suivit les étapes suivantes:
 
 ### Description synthétique du projet
 
-###### Problématique : De quelle manière des facteurs tels que la taille d’un système complet, la masse et le diamètre de l’étoile centrale et le nombre de planètes influent sur les différentes trajectoires des corps célestes ?
+#### Problématique : De quelle manière des facteurs tels que la taille d’un système complet, la masse et le diamètre de l’étoile centrale et le nombre de planètes influent sur les différentes trajectoires des corps célestes ?
 
 ###### Hypothèse principale :
 Ces facteurs influent directement sur la mise en orbite et donc la trajectoire des planètes.
