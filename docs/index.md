@@ -57,12 +57,12 @@ Nous allons étudier l’impact des paramètres du modèle :
   [0 0 0 0 0 0 0 0 0 0 0]]                                                                                                                                                      
 
 **la fonction print_system permet d'afficher le système.**
-`def print_system(system):`  
-    `result = ""`
-    `for i in system:`
-        `for j in i:`
-            `result += " "+str(j)`
-        `result += " "+'\n'`
-    `print(result)`
-    `return    
+`def print_system(system):`                                                                                                                                                     
+    `result = ""`                                                                                                                                                      
+    `for i in system:`                                                                                                                                                      
+        `for j in i:`                                                                                                                                                      
+            `result += " "+str(j)`                                                                                                                                               
+        `result += " "+'\n'`                                                                                                                                                    
+    `print(result)`                                                                                                                                                      
+    `return                                                                                                                                                          
 print_system(system)`
