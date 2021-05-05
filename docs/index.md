@@ -27,11 +27,11 @@ Nous allons étudier l’impact des paramètres du modèle :
  • la masse de l'étoile                                                                                                                                                         
 
 **Pour quantifier l'impact de ces paramètres, en plus de l'observation visuelle de l'évolution de notre système, nous utiliserons les métriques suivantes :**
-`import numpy as np
+` import numpy as np
 
 import random
 
-from matplotlib import pyplot as plt`
+from matplotlib import pyplot as plt `
 
 
 
