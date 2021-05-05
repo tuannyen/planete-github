@@ -85,6 +85,7 @@ print_system(system)
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0    
+ 
 **Notre étoile centrale est donc située au entre du système (ici matrice), elle est représentée grâce à ses coordonnées.**
 ```
 coord_star = sysize//
@@ -134,8 +135,47 @@ def randplan(plannum):
     return (L)
     ```
 `randplan(plannum)`
+```
 [<__main__.planetetype at 0x231761f44f0>,    
  <__main__.planetetype at 0x231761f4ca0>,    
  <__main__.planetetype at 0x231761f4520>,    
  <__main__.planetetype at 0x231761f4e20>,    
- <__main__.planetetype at 0x231761cdcd0>]    
+ <__main__.planetetype at 0x231761cdcd0>] 
+ 
+ ```
+def create_p(plannum):
+    L=randplan(plannum)
+    for i in range (plannum):
+        p=L[i].coordonnees
+        system[p[0],p[1]]=2
+    return system 
+ ```
+  ```
+  create_p(plannum)
+   ```
+ array([[0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],    
+       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],    
+       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],    
+       [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],    
+       [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],     
+       [0, 0, 0, 1, 1, 1, 1, 1, 2, 0, 0],     
+       [2, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],     
+       [0, 0, 0, 1, 1, 1, 1, 1, 0, 2, 0],     
+       [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0],     
+       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],     
+       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])   
+```
+ print_system(system)
+```
+ 0 0 0 0 0 0 0 2 0 0 0      
+ 0 0 0 0 0 0 0 0 0 0 0     
+ 0 0 0 0 0 0 0 0 0 0 0      
+ 0 0 0 1 1 1 1 1 0 0 0     
+ 0 0 0 1 1 1 1 1 0 0 0      
+ 0 0 0 1 1 1 1 1 2 0 0     
+ 2 0 0 1 1 1 1 1 0 0 0      
+ 0 0 0 1 1 1 1 1 0 2 0       
+ 0 0 0 0 2 0 0 0 0 0 0      
+ 0 0 0 0 0 0 0 0 0 0 0       
+ 0 0 0 0 0 0 0 0 0 0 0      
+ 
