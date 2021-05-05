@@ -67,7 +67,7 @@ Nous allons étudier l’impact des paramètres du modèle :
 `return`                                                                                                                                                          
 `print_system(system)`
 
-0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0 
  0 0 0 0 0 0 0 0 0 0 0 
  0 0 0 0 0 0 0 0 0 0 0 
