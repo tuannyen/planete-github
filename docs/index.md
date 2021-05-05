@@ -63,15 +63,15 @@ N=20      #nombre d'itérations
 
 **La fonction print_system permet d'afficher le système.**                                                                                                                   
 ```
-def print_system(system):                                                                                                                                                     
-    result = ""                                                                                                                                                      
-for i in system:                                                                                                                                                     
-for j in i:                                                                                                                                                     
-result += " "+str(j)                                                                                                                                               
-result += " "+'\n'                                                                                                                                                    
-print(result)                                                                                                                                                      
-return                                                                                                                                                          
-    print_system(system)
+def print_system(system):
+    result = ""
+    for i in system:
+        for j in i:
+            result += " "+str(j)
+        result += " "+'\n'
+    print(result)
+    return
+print_system(system)
 ```
 
 0 0 0 0 0 0 0 0 0 0 0     
