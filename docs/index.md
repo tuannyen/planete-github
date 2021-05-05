@@ -109,4 +109,33 @@ def create_etoile(system):
  0 0 0 1 1 1 1 1 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
- 0 0 0 0 0 0 0 0 0 0 0      
+ 0 0 0 0 0 0 0 0 0 0 0
+ 
+ **Pour créer une planète, nous nous servons d'une classe planète.**
+ ```
+ class planetetype():
+
+    def __init__(self):
+        # self fait référence à l'objet lui-même
+        self.sizeplan = random.randint(1,7)*0.01
+        self.coordonnees = [random.randint(0,sysize-1),random.randint(0,sysize-1)]
+        self.massplan = random.randint(10**20,10**28)
+ ```
+ **La fonction `rand_plan` permet de créer une planète de notre système en fonction de plannum, et de lui prodiguer une masse random dans un intervalle réliste (la planète ne peut être plus lourde que l'étoile centrale), ainsi qu'un diamètre plausible (même raisonnement).**
+ 
+```
+def randplan(plannum):
+    L=[]
+    while (plannum!=0):
+        planete=planetetype()
+        if system[planete.coordonnees[0],planete.coordonnees[1]]==0:
+            plannum-=1
+            L.append(planete)
+    return (L)
+    ```
+`randplan(plannum)`
+[<__main__.planetetype at 0x231761f44f0>,    
+ <__main__.planetetype at 0x231761f4ca0>,    
+ <__main__.planetetype at 0x231761f4520>,    
+ <__main__.planetetype at 0x231761f4e20>,    
+ <__main__.planetetype at 0x231761cdcd0>]    
