@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Planete
 
 You can use the [editor on GitHub](https://github.com/tuannyen/planete-github/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
