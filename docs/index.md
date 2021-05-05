@@ -8,6 +8,10 @@ Un système planétaire tout comme celui dans lequel nous évoluons, se compose 
 
  La taille et le nombre de planètes ont aussi un rôle essentiel à jouer, nos hypothèses soutiennent qu’un système trop grand comparé à la taille de l’étoile, empêchera les planètes lointaines d’engendrer une orbite stable, ainsi, les plus éloignées ne feront plus partie du système étudié. En somme, nous conclurons avec des courbes significatives, montrant le comportement des astres quant à la modification des paramètres cités précédemment, ce qui constituera la réponse à notre problématique.
  
+#####Résumé
+
+L'objectif du projet est de modéliser la création d'un système planétaire avec son astre central et les planètes qui y gravitent autour. Pour comprendre comment fonctionne un système planétaire, l'élément le plus important est la trajectoire des planètes gravitant dans le système. On a donc commencé par cr
+ 
  
 
 
