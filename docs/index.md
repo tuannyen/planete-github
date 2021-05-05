@@ -85,9 +85,27 @@ print_system(system)
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0    
+**Notre étoile centrale est donc située au entre du système (ici matrice), elle est représentée grâce à ses coordonnées.**
 ```
-if (isAwesome){
-  return true
-}
+coord_star = sysize//
 ```
+**La fonction `create_etoileplace` l'étoile au centre du système selon ses coordonnées. Le coté du carré sensé représenter l'étoile fera le diamètre de l'étoile (exemple diamètre=3: carré=3x3 dans le système).**
 
+```
+def create_etoile(system):
+    
+    system[coord_star-diameter//2:coord_star+diameter//2+1, coord_star-diameter//2:coord_star+diameter//2+1] = 1
+```
+create_etoile(system)
+print_system(system)
+0 0 0 0 0 0 0 0 0 0 0      
+ 0 0 0 0 0 0 0 0 0 0 0     
+ 0 0 0 0 0 0 0 0 0 0 0     
+ 0 0 0 1 1 1 1 1 0 0 0      
+ 0 0 0 1 1 1 1 1 0 0 0     
+ 0 0 0 1 1 1 1 1 0 0 0     
+ 0 0 0 1 1 1 1 1 0 0 0     
+ 0 0 0 1 1 1 1 1 0 0 0     
+ 0 0 0 0 0 0 0 0 0 0 0     
+ 0 0 0 0 0 0 0 0 0 0 0     
+ 0 0 0 0 0 0 0 0 0 0 0      
