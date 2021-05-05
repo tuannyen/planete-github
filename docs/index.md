@@ -80,6 +80,11 @@ On veut maintenant pouvoir faire bouger les planètes dans notre matrice, on cr�
 On ajoute la fonction nous permettant de calculer la trajectoire d'une planète. On appliquera nos fonctions de mouvement en fonction des coordonnées données en fonction du temps, on crée le site web pour notre projet et on se prépare pour la soutenance orale.
 
 ## Bibliographie
+1. FUTURA. Futura, Explorer le monde. Futura [en ligne]. [Consulté le 5 mai 2021]. Disponible à l’adresse : https://www.futura-sciences.comMédia de décryptage, Futura vous emmène à la rencontre des découvertes et innovations qui changent le monde. Autour de 5 rubriques (Sciences, Santé, Tech, Maison et Planète), nos journalistes vous proposent un contenu exclusif : actualités, vidéos, dossiers, photos...
+2. QUELOZ, Didier et CARIEL, Francisca. Il y a trop d’étoiles, de planètes et de galaxies pour que nous soyons seuls. Courrier international. 11 mars 2021. Vol. 1584, n° 1584, pp. 49,50,51. 
+3. BLAY, Michel. Les Principia de Newton [en ligne]. Dunod, 2017. [Consulté le 29 mars 2021]. Disponible à l’adresse : https://halldulivre.com/livre/9782100769162-les-principia-de-newton-michel-blay/
+4. DEPARIS, Vincent. Pourquoi les corps tombent-ils ? Une histoire de la gravité d’Aristote à Einstein (2/3). — Planet-Terre. [en ligne]. 2011. [Consulté le 29 mars 2021]. Disponible à l’adresse : https://planet-terre.ens-lyon.fr/article/histoire-gravite-2-Hooke-Newton.xml
+5. ANDRADE, Jules. Sur le mouvement d’un corps soumis à l’attraction newtonienne de deux corps fixes et sur l’extension d’une propriété des mouvements keplériens. 2009. Paris ; 1806-1896, France : Bibliothèque universitaire Pierre et Marie Curie (BUPMC).
 
 
 
