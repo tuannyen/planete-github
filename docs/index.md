@@ -27,17 +27,22 @@ Nous allons étudier l’impact des paramètres du modèle :
  • la masse de l'étoile                                                                                                                                                         
 
 **Pour quantifier l'impact de ces paramètres, en plus de l'observation visuelle de l'évolution de notre système, nous utiliserons les métriques suivantes :**
+```
+import numpy as np
 
-`import numpy as np`                                                                                                                                                             
-`import random`                                                                                                                                                                 
-`from matplotlib import pyplot as plt`
+import random
 
-`# Paramètres du modèle Planétaire`                                                                                                                                             
-`sysize = 11     # Taille du système`                                                                                                                                           
-`plannum= 5     # Nombre de planètes (pour planet number à l'anglaise évidemment)`                                                                                               
-`diameter=5    # Diamètre de l'étoile centrale en kms`                                                                                                                           
-`mass=10^30 # Masse de l'étoile centrale`                                                                                                                                       
-`N=20      #nombre d'itérations`
+from matplotlib import pyplot as plt
+
+# Paramètres du modèle Planétaire
+sysize = 11     # Taille du système
+plannum= 5     # Nombre de planètes (pour planet number à l'anglaise évidemment)
+diameter=5    # Diamètre de l'étoile centrale en kms
+mass=10^30 # Masse de l'étoile centrale
+N=20      #nombre d'itérations
+```
+
+
 
 **Notre système est composé d'une matrice carrée de taille sysize.**
 
