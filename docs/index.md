@@ -65,7 +65,7 @@ Nous allons étudier l’impact des paramètres du modèle :
 `result += " "+'\n'`                                                                                                                                                    
 `print(result)`                                                                                                                                                      
 `return`                                                                                                                                                          
-'   ' `print_system(system)`
+    `print_system(system)`
 
 0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
