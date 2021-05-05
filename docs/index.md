@@ -32,7 +32,21 @@ Ces facteurs influent sur la période de révolution des planètes.
 Modèliser la trajectoire des planètes, déterminer si la planètes peut être mise en orbite.
 
 ###### Critère(s) d'évaluation :
- 
+
+### Présentation des résultats
+Nous avons décidé de modéliser le système grâce à une matrice, voici un exemple ci-dessous.
+
+[[0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],    
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],    
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],    
+[0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],    
+[0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],    
+[0, 0, 0, 1, 1, 1, 1, 1, 2, 0, 0],    
+[2, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],    
+[0, 0, 0, 1, 1, 1, 1, 1, 0, 2, 0],    
+[0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0],    
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],    
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]    
 
 
 
