@@ -7,9 +7,14 @@ Un système planétaire tout comme celui dans lequel nous évoluons, se compose 
 
 La taille et le nombre de planètes ont aussi un rôle essentiel à jouer, nos hypothèses soutiennent qu’un système trop grand comparé à la taille de l’étoile, empêchera les planètes lointaines d’engendrer une orbite stable, ainsi, les plus éloignées ne feront plus partie du système étudié. En somme, nous conclurons avec des courbes significatives, montrant le comportement des astres quant à la modification des paramètres cités précédemment, ce qui constituera la réponse à notre problématique.
 
-### Objectifs
+## Objectifs
 
 Dans ce notebook nous allons essayer de modéliser les trajectoires des planètes avec l'aide de formules mathématiques concrètes, afin que notre modèle mette en lumière les différences d'un système à l'autre. Nous allons essayer de comprendre les différentes façons d'implémenter un modèle significatif, et d'obtenir des résultats commentés qui permettront de comprendre dans quelles mesures un système va-t-il émerger, et sous quelle(s) condition(s) va-t-il pouvoir accueillir un nombre de planètes plus élevé que le notre.
+
+
+### Etude du modèle en deux dimensions
+
+**Objectifs : implémenter le modèle planétaire en python, le tester sur un exemple simple puis étudier l'impact que peuvent avoir les paramètres du modèle sur le système.**
 
 You can use the [editor on GitHub](https://github.com/tuannyen/planete-github/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
