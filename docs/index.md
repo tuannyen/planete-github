@@ -79,7 +79,7 @@ On veut maintenant pouvoir faire bouger les planètes dans notre matrice, on cr�
 #### Semaine 7
 On ajoute la fonction nous permettant de calculer la trajectoire d'une planète. On appliquera nos fonctions de mouvement en fonction des coordonnées données en fonction du temps, on crée le site web pour notre projet et on se prépare pour la soutenance orale.
 
-##Bibliographie
+## Bibliographie
 
 
 
