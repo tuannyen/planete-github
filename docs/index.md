@@ -59,7 +59,7 @@ Un point faible peut-être l'aproximation des trajectoires du au fait que nous m
 ## Carnet de bord
 
 #### Semaine 1    
-Le groupe se découvre, un brainstorming a lieu pour mettre en commun des d'idées quant au sujet du projet. Modélisation d'une population d'abeille dans une ruche, vitesse d'apprentissage, ce sera finalement la modélisation des planètes qui sera retenue.
+Le groupe se découvre, un brainstorming a lieu pour mettre en commun des idées quant au sujet du projet. Modélisation d'une population d'abeille dans une ruche, vitesse d'apprentissage, ce sera finalement la modélisation des planètes qui sera retenue.
 
 #### Semaine 2
 Mise en forme de l'organisation du projet, que doit-on créer, faire varier, dans quel ordre doit-on organiser les étapes. Il est retenu qu'on doit créer le système, l'astre central, les planètes.
@@ -76,7 +76,8 @@ Création des planètes gravitant autour de l'astre central, représentées par 
 #### Semaine 6
 On veut maintenant pouvoir faire bouger les planètes dans notre matrice, on crée donc des fonctions de mouvement (par exemple move_up) qui nous permettent de faire varier la position des planètes si besoin.
 
-#### Semaine 7 
+#### Semaine 7
+On ajoute la fonction nous permettant de calculer la trajectoire d'une planète. On appliquera nos fonctions de mouvement en fonction des coordonnées données en fonction du temps, on crée le site web pour notre projet et on se prépare pour la soutenance orale.
 
 
 
