@@ -17,7 +17,13 @@ Pour construire notre système, on a suivit les étapes suivantes:
  - création des planètes
  - mouvoir les planètes 
  - appliquer les fonctions de mouvement en fonction de la formule pour la trajectoire des planètes 
- 
+
+### Description synthétique du projet
+###### Problématique : 
+###### Hypothèse principale :
+###### Hypothèse secondaire :
+###### Objectifs :
+###### Critère(s) d'évaluation :
  
 
 
