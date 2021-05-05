@@ -177,5 +177,77 @@ def create_p(plannum):
  0 0 0 1 1 1 1 1 0 2 0       
  0 0 0 0 2 0 0 0 0 0 0      
  0 0 0 0 0 0 0 0 0 0 0       
- 0 0 0 0 0 0 0 0 0 0 0      
+ 0 0 0 0 0 0 0 0 0 0 0
+ 
+ **Dans le but de modéliser les trajectoires de nos planètes, des fonctions de déplacement sont nécessaires. La fonction moveuppermet de déplacer la planète vers le haut du système en utilisant ses coordonnées.**
+```
+def moveup(p):
+    system[p.coordonnees[0],p.coordonnees[1]]=0
+    system[p.coordonnees[0],p.coordonnees[1]+1]=1
+    p.coordonnees[0]+=1
+```
+**De même pour les autres directions avec les fonctions moveleft,moveright,movedown et movediagpour les déplacements en diagonale**
+```
+def moveleft(p):
+    system[p.coordonnees[0],p.coordonnees[1]]=0
+    system[p.coordonnees[0]-1,p.coordonnees[1]]=1
+    p.coordonnees[0]-=1
+
+```
+```
+def moveright(p):
+    system[p.coordonnees[0],p.coordonnees[1]]=0
+    system[p.coordonnees[0]+1,p.coordonnees[1]]=1
+    p.coordonnees[0]+=1
+```
+```
+def movedown(p):
+    system[p.coordonnees[0],p.coordonnees[1]]=0
+    system[p.coordonnees[0],p.coordonnees[1]-1]=1
+    p.coordonnees[0]-=1
+```
+```
+def movediag_up_left(p):
+    moveleft(p)
+    moveup(p)
+```
+```
+def movediag_up_right(p):
+    moveright(p)
+    moveup(p)
+```
+```
+def movediag_down_left(p):
+    moveleft(p)
+    movedown(p)
+```
+```
+def movediag_down_right(p):
+    moveright(p)
+    movedown(p)
+```
+**Avec ces fonctions de mouvement, nous sommes maintenant capables de déterminer la trajectoire qu'aura une planète de notre système, on attribut une vitesse à chaque planète en fonction de sa masse et sa distance à l'étoile.Puis nous regarderons où se trouve la planète à T+1 (sachant que le système de base est représenté à T=0)**
+```
+def vitesse(p):
+    G = 6.6742*10**-11
+    d = sqrt((p.coordonnees[0]-coord_star)**2+(p.coordonnees[1]-coord_star)**2)
+    vitesse = sqrt((G*p.massplan)/d)
+```
+**On obtient ici la vitesse à l'aide de la formule pour les vitesses orbitales où G est la constante de gravitation universelle , et d la distance entre les noyaux de la planète et l'étoile**
+
+**A T=0, la planète est donc à sa position random initiale, et à T+1, la planète bougera de 1 en diagonale, la position dépendra de si la planète rentre, sors, ou perdure dans l'orbite de son étoile**
+
+**La fontion `trajectoire` nous aide à tracer la trajetoire de la planète**
+```
+def trajectoire(p):
+    for i in range (N):
+        
+```
+**A T+N : on obtient un modèle stable, les tentatives montreront à partir de quel N, notre modèle ne bouge plus selon les métriques fixées au départ. N est fixé avant chaque essai, c'est le "nombre de tours" que notre fonction `final_system` fera.**
+
+**La fonction `final_system` nous permet d'avoir une vision globale du système après N itérations**
+
+
+
+ 
  
