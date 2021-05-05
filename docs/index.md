@@ -56,7 +56,7 @@ Ensuite pour ce qui est de la trajectoire voici un autre exemple.
 Le point fort de notre modélisation est que de nombreux facteurs peuvent être changé pour voir l'impact sur les trajectoires, elle est donc polyvalente.
 Un point faible peut-être l'aproximation des trajectoires du au fait que nous modélisons par une matrice.
 
-##Carnet de bord
+## Carnet de bord
 
 #### Semaine 1    
 Le groupe se découvre,un brainstorming a lieu pour mettre en commun des d'idées quant au sujet du projet. Modélisation d'une population d'abeille dans une ruche, vitesse d'apprentissage, ce sera finalement la modélisation des planètes qui sera retenue.
