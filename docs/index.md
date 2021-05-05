@@ -16,10 +16,10 @@ Dans ce notebook nous allons essayer de modéliser les trajectoires des planète
 
 Nous allons étudier l’impact des paramètres du modèle :
 
- • la taille du système
- • le nombre de planètes
- • le diamètre de l'étoile
- • la masse de l'étoile
+ • la taille du système                                                                                                                                                      
+ • le nombre de planètes                                                                                                                                                         
+ • le diamètre de l'étoile                                                                                                                                                       
+ • la masse de l'étoile                                                                                                                                                         
 
 **Objectifs : implémenter le modèle planétaire en python, le tester sur un exemple simple puis étudier l'impact que peuvent avoir les paramètres du modèle sur le système.**
 
