@@ -78,6 +78,9 @@ Nous allons étudier l’impact des paramètres du modèle :
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0    
-def foo():
-    if not bar:
-        return True
+```
+if (isAwesome){
+  return true
+}
+```
+
