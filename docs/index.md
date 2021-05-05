@@ -97,7 +97,8 @@ def create_etoile(system):
     system[coord_star-diameter//2:coord_star+diameter//2+1, coord_star-diameter//2:coord_star+diameter//2+1] = 1
 ```
 `create_etoile(system)`    
-`print_system(system)`     
+`print_system(system)`
+
 0 0 0 0 0 0 0 0 0 0 0      
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
