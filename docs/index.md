@@ -78,10 +78,6 @@ Nous allons étudier l’impact des paramètres du modèle :
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0     
  0 0 0 0 0 0 0 0 0 0 0    
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
+def foo():
+    if not bar:
+        return True
