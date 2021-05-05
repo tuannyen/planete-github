@@ -42,7 +42,8 @@ Nous allons étudier l’impact des paramètres du modèle :
 **Notre système est composé d'une matrice carrée de taille sysize.**
 
 `system=np.zeros((sysize,sysize),dtype=int)`                                                                                                                                     
-`print (system)`                                                                                                                                                                 
+`print (system)`
+
 [[0 0 0 0 0 0 0 0 0 0 0]                                                                                                                                                         
  [0 0 0 0 0 0 0 0 0 0 0]                                                                                                                                                         
  [0 0 0 0 0 0 0 0 0 0 0]                                                                                                                                                         
