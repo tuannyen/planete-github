@@ -10,7 +10,13 @@ Un système planétaire tout comme celui dans lequel nous évoluons, se compose 
  
 #####Résumé
 
-L'objectif du projet est de modéliser la création d'un système planétaire avec son astre central et les planètes qui y gravitent autour. Pour comprendre comment fonctionne un système planétaire, l'élément le plus important est la trajectoire des planètes gravitant dans le système. On a donc commencé par cr
+L'objectif du projet est de modéliser la création d'un système planétaire avec son astre central et les planètes qui y gravitent autour. Pour comprendre comment fonctionne un système planétaire, l'élément le plus important est la trajectoire des planètes gravitant dans le système. 
+Pour construire notre système, on a suivit les étapes suivantes:
+ - création de la matrice
+ - création de l'astre central dans la matrice
+ - création des planètes
+ - mouvoir les planètes 
+ - appliquer les fonctions de mouvement en fonction de la formule pour la trajectoire des planètes 
  
  
 
