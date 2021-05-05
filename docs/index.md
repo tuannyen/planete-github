@@ -59,12 +59,24 @@ Un point faible peut-être l'aproximation des trajectoires du au fait que nous m
 ## Carnet de bord
 
 #### Semaine 1    
-Le groupe se découvre,un brainstorming a lieu pour mettre en commun des d'idées quant au sujet du projet. Modélisation d'une population d'abeille dans une ruche, vitesse d'apprentissage, ce sera finalement la modélisation des planètes qui sera retenue.
+Le groupe se découvre, un brainstorming a lieu pour mettre en commun des d'idées quant au sujet du projet. Modélisation d'une population d'abeille dans une ruche, vitesse d'apprentissage, ce sera finalement la modélisation des planètes qui sera retenue.
 
 #### Semaine 2
 Mise en forme de l'organisation du projet, que doit-on créer, faire varier, dans quel ordre doit-on organiser les étapes. Il est retenu qu'on doit créer le système, l'astre central, les planètes.
 
 #### Semaine 3
+Début des étapes, les différents membres du groupe cherchent sur internet des pistes. L'idée de matrice pour modéliser vient alors. On essaie tout d'abord de créer une matrice vide, puis une matrice comportant des "0".
+
+#### Semaine 4
+Après avoir crée la matrice représentant notre système, nous avons essayé de créer l'astre central, représenté par des "1". Nous avons eu l'idée de faire varier le nombre de "1" au sein de notre matrice pour pouvoir faire varier la taille de l'astre central. 
+
+#### Semaine 5
+Création des planètes gravitant autour de l'astre central, représentées par des "2" grâce à une fonction random. On décide de faire choisir à l'utilisateur le nombre de planète qu'il souhaite, si une planète n'est pas dans la matrice, la boucle se répete.
+
+#### Semaine 6
+On veut maintenant pouvoir faire bouger les planètes dans notre matrice, on crée donc des fonctions de mouvement (par exemple move_up) qui nous permettent de faire varier la position des planètes si besoin.
+
+#### Semaine 7 
 
 
 
