@@ -26,7 +26,8 @@ Pour construire notre système, on a suivit les étapes suivantes:
 
 ###### Hypothèse secondaire : Ces facteurs influent sur la période de révolution des planètes.
 
-###### Objectifs :
+###### Objectifs : Modèliser la trajectoire des planètes, déterminer si la planètes peut être mise en orbite.
+
 ###### Critère(s) d'évaluation :
  
 
