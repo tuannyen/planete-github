@@ -46,7 +46,14 @@ Nous avons décidé de modéliser le système grâce à une matrice, voici un ex
 [0, 0, 0, 1, 1, 1, 1, 1, 0, 2, 0],    
 [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0],    
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],    
-[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]    
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Les "1" représentent l'astre central, les deux les planètes.
+
+Ensuite pour ce qui est de la trajectoire voici un autre exemple.
+
+
+Le point fort de notre modélisation est que de nombreux facteurs peuvent être changé pour voir l'impact sur les trajectoires, elle est donc polyvalente.
 
 
 
