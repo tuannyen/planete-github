@@ -38,3 +38,7 @@ Nous allons étudier l’impact des paramètres du modèle :
 `diameter=5    # Diamètre de l'étoile centrale en kms`                                                                                                                           
 `mass=10^30 # Masse de l'étoile centrale`                                                                                                                                       
 `N=20      #nombre d'itérations`
+
+**Notre système est composé d'une matrice carrée de taille sysize.**
+`system=np.zeros((sysize,sysize),dtype=int)`
+`print (system)`
