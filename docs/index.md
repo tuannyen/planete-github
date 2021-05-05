@@ -20,6 +20,20 @@ Pour construire notre système, on a suivi les étapes suivantes:
 
 ### In English please
 
+Our principal goal is to model a planetary system, it’s central star and the planets that gravitate around it.
+In order to understand the functionning of a planetary system, the main element is the trajectory of the planets within the system.
+The building of our system relies on:
+
+The array creation
+
+Establishment of the central star in the array
+
+Creation of our planets
+
+Movement functions for the planets
+
+Applicate these functions to build an «  itinerary » that the planets will follow
+
 ### Description synthétique du projet
 
 #### Problématique : De quelle manière des facteurs tels que la taille d’un système complet, la masse et le diamètre de l’étoile centrale et le nombre de planètes influent sur les différentes trajectoires des corps célestes ?
