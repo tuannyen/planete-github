@@ -52,5 +52,5 @@ Nous allons étudier l’impact des paramètres du modèle :
  [0 0 0 0 0 0 0 0 0 0 0]                                                                                                                                                         
  [0 0 0 0 0 0 0 0 0 0 0]                                                                                                                                                         
  [0 0 0 0 0 0 0 0 0 0 0]                                                                                                                                                         
- [0 0 0 0 0 0 0 0 0 0 0]]                                                                                                                                                       
+ [0 0 0 0 0 0 0 0 0 0 0]]                                                                                                                                                      
 
