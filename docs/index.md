@@ -16,7 +16,9 @@ Pour construire notre système, on a suivit les étapes suivantes:
  - création de l'astre central dans la matrice
  - création des planètes
  - mouvoir les planètes 
- - appliquer les fonctions de mouvement en fonction de la formule pour la trajectoire des planètes 
+ - appliquer les fonctions de mouvement en fonction de la formule pour la trajectoire des planètes
+
+### In English please
 
 ### Description synthétique du projet
 
