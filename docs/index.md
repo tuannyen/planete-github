@@ -58,6 +58,11 @@ Un point faible peut-être l'aproximation des trajectoires du au fait que nous m
 
 ##Carnet de bord
 
+#### Semaine 1    
+Le groupe se découvre,un brainstorming a lieu pour mettre en commun des d'idées quant au sujet du projet. Modélisation d'une population d'abeille dans une ruche, vitesse d'apprentissage, ce sera finalement la modélisation des planètes qui sera retenue.
+
+#### Semaine 2    
+
 
 
 
