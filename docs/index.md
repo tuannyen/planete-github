@@ -66,6 +66,8 @@ Les "1" représentent l'astre central, les "2" les planètes.
 
 Ensuite pour ce qui est de la trajectoire voici un autre exemple.
 
+![image](https://user-images.githubusercontent.com/80518834/117309321-98f35f00-ae82-11eb-888b-7f8f3c66838f.png)
+
 
 Le point fort de notre modélisation est que de nombreux facteurs peuvent être changé pour voir l'impact sur les trajectoires, elle est donc polyvalente.
 Un point faible peut-être l'aproximation des trajectoires du au fait que nous modélisons par une matrice.
